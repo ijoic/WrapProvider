@@ -136,7 +136,7 @@ public abstract class MultiTableContentProvider extends ContentProvider implemen
    * @param newVersion 新数据库版本号
    */
   @Override
-  public void onUpgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion) {
+  public void onUpgradeDatabase(@NonNull SQLiteDatabase db, int oldVersion, int newVersion) {
     ProviderHelper helper;
 
     for (int i = 0, size = providerHelperMap.size(); i < size; ++i) {

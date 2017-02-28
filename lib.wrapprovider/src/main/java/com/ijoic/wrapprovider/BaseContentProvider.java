@@ -90,7 +90,7 @@ public abstract class BaseContentProvider extends ContentProvider implements Pro
    * @param newVersion 新数据库版本号
    */
   @Override
-  public void onUpgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion) {
+  public void onUpgradeDatabase(@NonNull SQLiteDatabase db, int oldVersion, int newVersion) {
     providerHelper.onUpgradeDatabase(db, oldVersion, newVersion);
   }
 

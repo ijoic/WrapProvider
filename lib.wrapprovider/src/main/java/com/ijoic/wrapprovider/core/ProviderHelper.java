@@ -39,7 +39,7 @@ public interface ProviderHelper {
    * @param oldVersion 旧数据库版本号
    * @param newVersion 新数据库版本号
    */
-  void onUpgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion);
+  void onUpgradeDatabase(@NonNull SQLiteDatabase db, int oldVersion, int newVersion);
 
   /**
    * 初始化URI匹配器

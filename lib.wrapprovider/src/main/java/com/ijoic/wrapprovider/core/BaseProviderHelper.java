@@ -125,7 +125,7 @@ public abstract class BaseProviderHelper implements ProviderHelper {
   }
 
   @Override
-  public void onUpgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion) {
+  public void onUpgradeDatabase(@NonNull SQLiteDatabase db, int oldVersion, int newVersion) {
     db.execSQL("DROP TABLE IF EXISTS " + tableConfig.tableName);
     onCreateDatabase(db);
   }
