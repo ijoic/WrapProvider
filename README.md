@@ -1,6 +1,29 @@
 # Wrap Provider
 
+[![](https://jitpack.io/v/ijoic/WrapProvider.svg)](https://jitpack.io/#ijoic/WrapProvider)
+
 Easy access for creating `ContentProvider`. And supports multiple table management inside one `ContentProvider`.
+
+## Import
+
+1. Add it in your root `build.gradle` at the end of repositories:
+
+    ```
+        allprojects {
+            repositories {
+                ...
+                maven { url 'https://jitpack.io' }
+            }
+        }
+    ```
+
+2. Add Add the dependency.
+
+    ```
+        dependencies {
+            compile 'com.github.ijoic:WrapProvider:v1.0'
+        }
+	```
 
 ## Usage
 
