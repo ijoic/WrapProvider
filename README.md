@@ -21,7 +21,7 @@ Easy access for creating `ContentProvider`. And supports multiple table manageme
 
     ```
         dependencies {
-            compile 'com.github.ijoic:WrapProvider:v1.0.1'
+            compile 'com.github.ijoic:WrapProvider:v1.0.2'
         }
 	```
 
