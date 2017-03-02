@@ -103,7 +103,7 @@ public abstract class BaseProviderHelper implements ProviderHelper {
     if(columns != null) {
       for (String column : columns) {
         if(!TextUtils.isEmpty(column)) {
-          this.projectionMap.put(column, column);
+          projectionMap.put(column, column);
         }
       }
     }
